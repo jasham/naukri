@@ -6,9 +6,9 @@ import sys
 driver = webdriver.Chrome("C:\Python33\chromedriver.exe")
 driver.get('https://login.naukri.com/')
 uname=driver.find_element_by_id('emailTxt')
-uname.send_keys('jasham009@gmail.com')
+uname.send_keys('xyz@gmail.com')
 passwd=driver.find_element_by_id('pwd1')
-passwd.send_keys("kawasaki12")
+passwd.send_keys("xxxxx")
 passwd.send_keys(Keys.ENTER)
 var=1
 while var==1:
